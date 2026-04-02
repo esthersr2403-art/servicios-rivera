@@ -42,7 +42,7 @@ body {
 }
 
 .logo {
-  height: 130px;
+  height: 80px;
   width: auto;
 }
 
@@ -100,7 +100,7 @@ body {
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 20px px;
+  padding: 40px 20px;
 }
 
 .hero h2 {
@@ -235,16 +235,34 @@ section {
 }
 
 @media (max-width: 768px) {
-  .header-contenido {
+
+  .header {
     flex-direction: column;
-    gap: 10px;
+    text-align: center;
   }
-@media (max-width: 768px) {
+
+  .menu {
+    margin: 10px 0 0 0;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
   .servicios {
     flex-direction: column;
+    padding: 20px;
   }
-}
 
+}
 .btn-whatsapp {
   display: inline-block;
   background-color: #25D366;
