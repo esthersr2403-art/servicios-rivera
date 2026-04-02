@@ -79,7 +79,7 @@ body {
 
 /* HERO */
 .hero {
-  background-image: url("imagenes/fondo-principal.png.png");
+  background-image: url("fondo-principal.png.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ body {
 .hero {
   background: 
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("imagenes/fondo-principal.png.png");
+    url("fondo-principal.png.png");
   background-size: cover;
   background-position: center;
   color: white;
